@@ -1,0 +1,17 @@
+@mixin button($bColor, $fColor) {
+  background-color: $bColor;
+  border-radius: .25rem;
+  border: 1px solid transparent;
+  color: $fColor;
+  cursor: pointer;
+  font-family: 'Iconsolata';
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.5;
+  padding: .375rem .75rem;
+  text-align: center;
+  text-transform: uppercase;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  vertical-align: middle;
+  white-space: nowrap;
+}
