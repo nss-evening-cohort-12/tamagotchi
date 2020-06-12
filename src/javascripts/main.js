@@ -1,7 +1,10 @@
 import '../styles/main.scss';
+import eat from './components/eat/eat';
+import events from './components/events/events';
 
 const init = () => {
-  console.warn('hello there');
+  events.allEvents();
+  eat.makeEatComponent();
 };
 
 init();

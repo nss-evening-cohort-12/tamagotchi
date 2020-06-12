@@ -1,3 +1,20 @@
 body {
   background-color: blueviolet;
 }
+#app {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+
+  #progress, #pet {
+    width: 100%;
+  }
+
+  .quad {
+    border: 2px solid white;
+    width: 48%;
+    height: 200px;
+    margin: 5px;
+  }
+
+}
