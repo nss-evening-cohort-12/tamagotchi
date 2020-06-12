@@ -38,4 +38,11 @@ const eatSmall = () => {
   fullCheck();
 };
 
-export default { makeEatComponent, eatBig, eatSmall };
+const getFull = () => full;
+
+export default {
+  makeEatComponent,
+  eatBig,
+  eatSmall,
+  getFull,
+};

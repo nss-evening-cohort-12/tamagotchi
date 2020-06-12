@@ -37,4 +37,11 @@ const sleepSmall = () => {
   energyCheck();
 };
 
-export default { makeSleepComponent, sleepBig, sleepSmall };
+const getEnergy = () => energy;
+
+export default {
+  makeSleepComponent,
+  sleepBig,
+  sleepSmall,
+  getEnergy,
+};
