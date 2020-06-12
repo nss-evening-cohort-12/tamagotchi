@@ -38,4 +38,11 @@ const fightSub = () => {
   strengthCheck();
 };
 
-export default { makeFightComponent, fightAdd, fightSub };
+const getStrength = () => strength;
+
+export default {
+  makeFightComponent,
+  fightAdd,
+  fightSub,
+  getStrength,
+};

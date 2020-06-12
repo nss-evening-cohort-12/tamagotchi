@@ -11,6 +11,7 @@ const init = () => {
   play.makeFunComponent();
   fight.makeFightComponent();
   sleep.makeSleepComponent();
+  events.makeProgress();
 };
 
 init();

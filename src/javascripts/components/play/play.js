@@ -38,4 +38,11 @@ const funSmall = () => {
   funCheck();
 };
 
-export default { makeFunComponent, funBig, funSmall };
+const getFun = () => fun;
+
+export default {
+  makeFunComponent,
+  funBig,
+  funSmall,
+  getFun,
+};
