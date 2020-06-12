@@ -1,6 +1,7 @@
 import eat from '../eat/eat';
 import play from '../play/play';
 import fight from '../fight/fight';
+import sleep from '../sleep/sleep';
 
 const eatEvents = () => {
   $('#eat').on('click', '#eat-big', eat.eatBig);
@@ -17,10 +18,16 @@ const fightEvents = () => {
   $('#fight').on('click', '#fight-sub', fight.fightSub);
 };
 
+const sleepEvents = () => {
+  $('#sleep').on('click', '#sleep-big', sleep.sleepBig);
+  $('#sleep').on('click', '#sleep-small', sleep.sleepSmall);
+};
+
 const allEvents = () => {
   eatEvents();
   playEvents();
   fightEvents();
+  sleepEvents();
 };
 
 export default { allEvents };

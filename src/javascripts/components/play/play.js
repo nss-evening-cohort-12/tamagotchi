@@ -1,5 +1,7 @@
 import utils from '../../helpers/utils';
 
+import './play.scss';
+
 let fun = 50;
 
 const makeFunComponent = () => {

@@ -1,5 +1,7 @@
 import utils from '../../helpers/utils';
 
+import './fight.scss';
+
 let strength = 100;
 
 const makeFightComponent = () => {

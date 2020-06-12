@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400&display=swap');
+
 body {
   background-color: blueviolet;
+  font-family: 'Iconsolata', monospace;
 }
+
 #app {
   display: flex;
   flex-flow: row wrap;
   width: 100%;
+  text-align: center;
 
   #progress, #pet {
     width: 100%;
@@ -15,6 +20,10 @@ body {
     width: 48%;
     height: 200px;
     margin: 5px;
+
+    p {
+      font-size: 2em;
+    }
   }
 
 }

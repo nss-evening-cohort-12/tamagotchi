@@ -1,0 +1,11 @@
+@import '../../../styles/buttons';
+
+.sleep__buttons {
+  button {
+    @include button(#444, #fff);
+  }
+
+  button:hover {
+    background-color: darken($color: #444, $amount: 3);
+  }
+}

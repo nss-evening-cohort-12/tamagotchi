@@ -1,0 +1,11 @@
+@import '../../../styles/buttons';
+
+.eat__buttons {
+  button {
+    @include button(green, #fff);
+  }
+
+  button:hover {
+    background-color: darken($color: green, $amount: 3);
+  }
+}

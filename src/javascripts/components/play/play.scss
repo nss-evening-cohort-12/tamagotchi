@@ -1,0 +1,11 @@
+@import '../../../styles/buttons';
+
+.fun__buttons {
+  button {
+    @include button(#E1FF29, #111);
+  }
+
+  button:hover {
+    background-color: darken($color: #E1FF29, $amount: 3);
+  }
+}

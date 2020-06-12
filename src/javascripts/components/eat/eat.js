@@ -1,5 +1,7 @@
 import utils from '../../helpers/utils';
 
+import './eat.scss';
+
 let full = 100;
 
 const makeEatComponent = () => {
